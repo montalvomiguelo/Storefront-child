@@ -1,0 +1,66 @@
+/*
+Theme Name:     Storefront Child Theme
+Theme URI:      https://github.com/stuartduff/storefront-child-theme
+Author:         Stuart Duff
+Author URI:     http://stuartduff.com
+Template:     	storefront
+Description:  	This is a blank child theme for WooThemes StoreFront theme
+Version:      	1.0.0
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  	storefront
+Tags:         	black, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+Storefront is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+FontAwesome License: SIL Open Font License - http://scripts.sil.org/OFL
+Images License: GNU General Public License v2 or later
+*/
+/*
+ * Add your own custom css below this text.
+ */
+body,
+button,
+input,
+textarea {
+  font-family: "Asap", sans-serif; }
+
+select {
+  font-family: "Asap", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Asap", sans-serif; }
+
+@media (min-width: 768px) {
+  .page-template-template-homepage-php .content-area {
+    width: 74.57627%;
+    float: left;
+    margin-right: 1.69492%; } }
+@media (min-width: 768px) {
+  .page-template-template-homepage-php.left-sidebar .content-area {
+    width: 74.57627%;
+    float: right;
+    margin-right: 0; } }
+.page-template-template-homepage-php.left-sidebar .widget-area {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.page-template-template-homepage .site-main {
+  padding-top: 0; }
+
+.sf-child-theme-featured-products .storefront-product-section:last-child {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.025); }
+
+.site-content .col-full {
+  padding: 4em 0; }
+
+/*# sourceMappingURL=style.css.map */
